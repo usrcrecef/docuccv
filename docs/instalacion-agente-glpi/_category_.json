@@ -1,0 +1,8 @@
+{
+  "label": "Instalación - Agente GLPI",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Tutorial para la instalación del agente GLPI en los equipos de la organización."
+  }
+}
