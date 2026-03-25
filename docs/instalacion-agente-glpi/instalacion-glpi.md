@@ -5,24 +5,20 @@ title: Manual de instalación del Agente de GLPI
 # Manual de instalación del Agente de GLPI
 
 :::info
-
 Manual elaborado el 24 de febrero de 2026 <br/>
 Actualizado: 23 de marzo de 2026 <br/>
 Autor: Juande Sánchez <br/>
 Correo: [soporte4@crececonvales.com](mailto://soporte4crececonvales.com) <br/>
 **Versión: 0.4**
-
 :::
 
 El siguiente manual muestra el procedimiento de instalación y configuración para el Agente GLPI para la empresa Crece con Vales.
 
 ## Objetivos
-
 1. Facilitar una guía sencilla de la instalación del Agente de GLPI.
 2. Ayudar a mantener un inventario de los equipos de cómputo de la empresa CRECE.
 
 ## Alcances
-
 - El presente manual esta destinado para usuarios del área de Sistemas de la empresa CRECE.
 - Se incluyen procedimientos para la instalación del Agente de GLPI. Por lo cual es necesario contar con conocimientos sobre:
     - Descarga de archivos a través de un navegador web, como es **Mozilla Firefox,** **Google Chrome** o **Microsoft Edge**. En los cuales la descarga de archivos es muy similar y hacen uso de la carpeta de Descargas del perfil de usuario en Windows (*%USERPROFILE%\Downloads\*).
@@ -32,9 +28,7 @@ El siguiente manual muestra el procedimiento de instalación y configuración pa
 - Finalmente, se muestra como validar nuestra instalación del agente y que este configurado correctamente así como consultar el estatus del mismo y conocer las tareas planeadas y cuando se volverán a ejecutar las tareas planeadas por el agente.
 
 ## Proceso de instalación
-
 ### Método 1 - Instalación con el asistente de instalación
-
 1. Abrir un navegador como Microsoft Edge y acceder al URL: [https://github.com/glpi-project/glpi-agent/releases](https://github.com/glpi-project/glpi-agent/releases)
 2. Desde la página oficial de Github del proyecto GLPI, descargar la última versión del instalador del agente para la arquitectura x86_64 para Windows.
 
@@ -103,7 +97,6 @@ El proceso puede llegar a tardar unos minutos en solicitar los permisos elevados
 16. Con esto queda finalizado el asistente de instalación y la ventana se cerrará
 
 ### Método 2 - WinGet
-
 :::info
 Para hacer uso de esta herramienta en Windows 10 se requiere una versión superior a 22H2 y con el paquete Microsoft.DesktopAppInstaller
 :::
@@ -141,7 +134,6 @@ Al momento de ejecutar el instalador nos pedirá elevar a permisos de administra
 6. Una vez que finalice el instalador, este cerrará la ventana del instalador.
 
 ## Comprobación del estatus del agente
-
 Una vez que ya tengamos instalado el agente en el equipo de cómputo del usuario.
 
 1. Abrimos una ventana del navegador: Mozilla Firefox, Google Chrome, Microsoft Edge, etc.
@@ -183,5 +175,4 @@ Una vez que ya tengamos instalado el agente en el equipo de cómputo del usuario
 13. Con esto podemos comprobar que nuestro inventario se ha ejecutado y enviado a nuestro servidor GLPI.
 
 ## Posibles fallos
-
 Recientemente nos percatamos que si se hace una copia del comando de WinGet se puede presentar un problema al pegarlo al CLI, incrustando un carácter de salto, por lo que se puede crear un error al momento de ingresar uno de los parámetros.
