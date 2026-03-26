@@ -2,14 +2,16 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+
+// Aquí se esta configurando el contenido de la sección de características de la página principal. Cada objeto en el array representa una característica, con un título, una imagen SVG y una descripción. Luego, se define un componente Feature que renderiza cada característica individualmente, y finalmente, el componente HomepageFeatures que renderiza todas las características en una sección de la página principal.
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Fácil de usar',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Esta página está diseñada para ser fácil de usar, con una interfaz intuitiva y una navegación clara. 
+        Puedes encontrar toda la información que necesitas de manera rápida y sencilla.
       </>
     ),
   },
