@@ -17,3 +17,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+documentacion:
+  label: Documentación
+  permalink: /documentacion
+  description: Documentación tag description
+
+conocimiento:
+  label: Conocimiento
+  permalink: /conocimiento
+  description: Conocimiento tag description
+
+productividad:
+  label: Productividad
+  permalink: /productividad
+  description: Productividad tag description

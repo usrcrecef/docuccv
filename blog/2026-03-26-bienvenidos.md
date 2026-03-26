@@ -3,7 +3,7 @@ title: "Plantando la semilla para el Árbol de Conocimientos con Docusaurus"
 description: "Cómo estructuré mi sistema personal de documentación técnica usando Docusaurus."
 slug: arbol-de-conocimientos-docusaurus
 authors: [juande]
-tags: [documentación, docusaurus, conocimiento, productividad]
+tags: [documentacion, docusaurus, conocimiento, productividad]
 date: 2026-03-26
 ---
 
