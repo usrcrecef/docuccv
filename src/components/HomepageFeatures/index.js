@@ -6,26 +6,27 @@ import styles from './styles.module.css';
 // Aquí se esta configurando el contenido de la sección de características de la página principal. Cada objeto en el array representa una característica, con un título, una imagen SVG y una descripción. Luego, se define un componente Feature que renderiza cada característica individualmente, y finalmente, el componente HomepageFeatures que renderiza todas las características en una sección de la página principal.
 const FeatureList = [
   {
-    title: 'Fácil de usar',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Sencillo de usar',
+    Svg: require('@site/static/img/logo-ccv1.svg').default,
     description: (
       <>
-        Esta página está diseñada para ser fácil de usar, con una interfaz intuitiva y una navegación clara. 
-        Puedes encontrar toda la información que necesitas de manera rápida y sencilla.
+        Esta página está diseñada para ser sencilla de usar, con una interfaz intuitiva y una navegación clara. 
+        Puedes encontrar toda la documentación que necesitas de manera rápida.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Enfocate en lo que importa',
+    Svg: require('@site/static/img/logo-ccv2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Árbol de conocimiento te permite enfocarte en los documentos, 
+        y nosotros nos encargamos de las tareas. Adelante, 
+        mueve tus documentos al directorio <code>docs</code>.
       </>
     ),
   },
-  {
+/*  {
     title: 'Powered by React',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
@@ -34,7 +35,7 @@ const FeatureList = [
         be extended while reusing the same header and footer.
       </>
     ),
-  },
+  }, */
 ];
 
 function Feature({Svg, title, description}) {
