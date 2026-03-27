@@ -1,10 +1,10 @@
 ---
-title: Manual de instalación del Agente de GLPI
+title: Documentación de la instalación del Agente GLPI
 ---
 
-# Manual de instalación del Agente de GLPI
+# Documentación de la instalación del Agente GLPI
 
-:::info
+:::info[Información]
 Manual elaborado el 24 de febrero de 2026 <br/>
 Actualizado: 23 de marzo de 2026 <br/>
 Autor: Juande Sánchez <br/>
@@ -80,7 +80,7 @@ El siguiente manual muestra el procedimiento de instalación y configuración pa
 
 14. El instalador nos indicará que ya esta listo para comenzar con la instalación. Damos clic en el botón en **Install**.
 
-:::info
+:::warning
 Es necesario que el usuario tenga permisos de administrador, ya que el instalador requiere permisos elevados.
 :::
 
@@ -88,7 +88,7 @@ Es necesario que el usuario tenga permisos de administrador, ya que el instalado
 
 15. El proceso de instalación finalizará y nos mostrará el mensaje de que el asistente de instalación del Agente GLPI ha terminado. Para finalizar el asistente damos clic en el botón **Finish**.
 
-:::info
+:::warning
 El proceso puede llegar a tardar unos minutos en solicitar los permisos elevados y completarse la instalación.
 :::
 
@@ -97,7 +97,7 @@ El proceso puede llegar a tardar unos minutos en solicitar los permisos elevados
 16. Con esto queda finalizado el asistente de instalación y la ventana se cerrará
 
 ### Método 2 - WinGet
-:::info
+:::tip
 Para hacer uso de esta herramienta en Windows 10 se requiere una versión superior a 22H2 y con el paquete Microsoft.DesktopAppInstaller
 :::
 
@@ -115,7 +115,7 @@ Para hacer uso de esta herramienta en Windows 10 se requiere una versión superi
 winget install GLPI-Project.GLPI-Agent --custom="SERVER='https://glpi.creceenlace.com/' RUNNOW=1"
 ```
 
-:::info
+:::warning
 Si es la primera vez que hacemos una instalación usando WinGet es necesario aceptar la condiciones del servicio, solo es necesario tipear la tecla **Y**.
 :::
 
@@ -123,7 +123,7 @@ Si es la primera vez que hacemos una instalación usando WinGet es necesario ace
 
 ![image.png](image15.png)
 
-:::info
+:::warning
 Al momento de ejecutar el instalador nos pedirá elevar a permisos de administrador.
 :::
 
