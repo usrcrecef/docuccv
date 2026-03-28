@@ -21,7 +21,7 @@ hola:
 documentacion:
   label: Documentación
   permalink: /documentacion
-  description: Documentación tag description
+  description: Esto son los artículos relacionados con la documentación de Docusaurus, procedimientos, guías, etc., en Crece con Vales.
 
 conocimiento:
   label: Conocimiento
