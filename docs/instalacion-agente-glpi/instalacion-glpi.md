@@ -137,7 +137,7 @@ Al momento de ejecutar el instalador nos pedirá elevar a permisos de administra
 Una vez que ya tengamos instalado el agente en el equipo de cómputo del usuario.
 
 1. Abrimos una ventana del navegador: Mozilla Firefox, Google Chrome, Microsoft Edge, etc.
-2. En la barra de direcciones escribimos: localhost:62354
+2. En la barra de direcciones escribimos: `localhost:62354`
 3. Nos mostrará la siguiente página.
 
 ![image.png](image17.png)
