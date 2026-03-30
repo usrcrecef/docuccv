@@ -11,22 +11,9 @@ Correo: [soporte4@crececonvales.com](mailto://soporte4crececonvales.com) <br/>
 :::
 
 ## Consideraciones iniciales
-El siguiente procedimiento parte de que **tú**, cuentas con un usuario de usuario en Windows Server, tienes privilegios de `Administrador` y cuentas con un usuario de VPN. Se asume que eres un usuario del sistema operativo Windows 10 y 11, ya que, estos cuentan con la aplicación de `Conexión a escritorio remoto` de Windows.
+El siguiente procedimiento parte de que **tú**, cuentas con un usuario de usuario en Windows Server, tienes privilegios de `Administrador` y cuentas con un usuario de VPN. A su vez, partimos que eres un usuario de Windows 10 u 11, por lo cual solo se hara consideración del uso de la aplicación `Conexión a escritorio remoto`, la cual es una de la herramientas de los sistemas operativos Windows.
 
-:::info
-La aplicación **Conexión de a escritorio remoto** esta disponible en su última versión estable en Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, Windows Server 2022 y Windows Server 2025.
-:::
-
-:::warning
-Desde Windows 11 versión 23H2, la aplicación puede ser desinstalada. En caso de estar en esta situación y no contar con la aplicación **Conexión a escritorio remoto**, se puede descargar desde los siguiente enlaces:
-
-- [Windows de 64 bits](https://res.cdn.office.net/remote-desktop-windows-client/mstsc_amd64_e0d8d14b-3645-4f73-99dd-470ab4fdd998/setup.exe)<br />
-- [Windows de 32 bits](https://res.cdn.office.net/remote-desktop-windows-client/mstsc_x86_ba02bce8-7a92-4b12-b891-631748bedae8/setup.exe)<br />
-- [Windows ARM64](https://res.cdn.office.net/remote-desktop-windows-client/mstsc_arm64_f8009d54-f3e5-4477-ae46-340dff8b491d/setup.exe)
-
-El proceso de reinstalación se describe de manera sencilla en [Microsoft Learn](https://learn.microsoft.com/es-es/windows-server/remote/remote-desktop-services/remotepc/uninstall-remote-desktop-connection?tabs=gui#reinstall-the-remote-desktop-connection-app), ya sea que se realice en la GUI o desde el [simbolo del sistema](https://learn.microsoft.com/es-es/windows-server/remote/remote-desktop-services/remotepc/uninstall-remote-desktop-connection?tabs=command-prompt#tabpanel_2_command-prompt).
-:::
-
+## VPN
 ### Instalación de OpenVPN Connect
 Antes de continuar con el proceso de conexión al escritorio remoto, es necesario tener instalada la aplicación OpenVPN Connect, en caso de no contar con la aplicación, se puede descargar la última versión: `3.8.0` (al momento de escribir esta documentación) desde `WinGet`.
 
@@ -41,7 +28,7 @@ Una vez que se tiene instalada la aplicación, es necesario verificar que se eje
 ### Configuración de OpenVPN Connect
 
 :::danger[AVISO]
-Por motivos de seguridad, en este sitio no se tendrán alojadas ninguna clave, certificado, perfil de conexión OVPN o se expondra algún dato crítico como; usuarios y contraseñas en producción, direcciones IP, nombres de dominio, nombres de equipos de cómputo o dispositivos de red(hostname). Tampoco serán mostradas imagenes del proceso para evitar exponer algun dato sensible. Cada una de las instrucciones aquí mostradas hacen referencia la aplicación **OpenVPN Connect versión 3.8.0**
+Por motivos de seguridad, en este sitio no se tendrán alojadas ninguna clave, certificado, perfil de conexión OVPN o se expondra algún dato crítico como; usuarios y contraseñas en producción, direcciones IP, nombres de dominio, nombres de equipos de cómputo o dispositivos de red (hostname). Tampoco serán mostradas imagenes del proceso para evitar exponer algun dato sensible. Cada una de las instrucciones aquí mostradas hacen referencia la aplicación **OpenVPN Connect versión 3.8.0**
 :::
 
 1. Abrir la aplicación OpenVPN Connect.
@@ -81,4 +68,21 @@ Voy a enumerar los posibles problemas que hasta el momento me he encontrado al m
 2. Al momento de dar clic en el botón `Connnect` no hace nada.
     - Este problema ha ocurrido muy pocas veces, pero puede deberse a un problema de una mala ejecución de la aplicación. Para solucionarlo rápido basta con finalizar el proceso de la aplicación, se puede hacer desde el **Administrador de tareas** (`Control` + `Shift` + `Escape`) y buscar la aplicación OpenVPN Connect para finalizarla (Clic derecho sobre  el nombre de la aplicación OpenVPN Connect y clic en la opción `Finalizar tarea`).
 
-## Configuracion de la aplicación
+## Conexión a escritorio remoto
+
+:::info
+La aplicación **Conexión de a escritorio remoto** esta disponible en su última versión estable en Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, Windows Server 2022 y Windows Server 2025.
+:::
+
+:::warning
+Desde Windows 11 versión 23H2, la aplicación puede ser desinstalada. En caso de estar en esta situación y no contar con la aplicación **Conexión a escritorio remoto**, se puede descargar desde los siguiente enlaces:
+
+- [Windows de 64 bits](https://res.cdn.office.net/remote-desktop-windows-client/mstsc_amd64_e0d8d14b-3645-4f73-99dd-470ab4fdd998/setup.exe)<br />
+- [Windows de 32 bits](https://res.cdn.office.net/remote-desktop-windows-client/mstsc_x86_ba02bce8-7a92-4b12-b891-631748bedae8/setup.exe)<br />
+- [Windows ARM64](https://res.cdn.office.net/remote-desktop-windows-client/mstsc_arm64_f8009d54-f3e5-4477-ae46-340dff8b491d/setup.exe)
+
+El proceso de reinstalación se describe de manera sencilla en [Microsoft Learn](https://learn.microsoft.com/es-es/windows-server/remote/remote-desktop-services/remotepc/uninstall-remote-desktop-connection?tabs=gui#reinstall-the-remote-desktop-connection-app), ya sea que se realice en la GUI o desde el [simbolo del sistema](https://learn.microsoft.com/es-es/windows-server/remote/remote-desktop-services/remotepc/uninstall-remote-desktop-connection?tabs=command-prompt#tabpanel_2_command-prompt).
+:::
+
+### Configuración de la aplicación
+Par
