@@ -23,7 +23,7 @@ winget install OpenVPNTechnologies.OpenVPNConnect
 
 Una vez que se tiene instalada la aplicación, es necesario verificar que se ejecute correctamente, nos debe de mostrar la siguiente ventana:
 
-![Se muestra la ventana inicial de OpenVPN, ésta solicita la configuración para una conexión o carga de un perfil nuevo.](./img-rdp/rdp001.png)
+<img src={require('./img-rdp/rdp001.png').default} className="img-centrada" /> 
 
 ### Configuración de OpenVPN Connect
 
@@ -45,9 +45,11 @@ Por motivos de seguridad, en este sitio no se tendrán alojadas ninguna clave, c
     - `Username`: Usuario de VPN, este campo es obligatorio.
     - `Password`: Contraseña de VPN, este campo es obligatorio.
     - `Private Key Password`: Contraseña de llave privada, ingresamos nuestra contraseña. Cabe menciona que ésta, normalmente es una frase de cifrado que se especifica cuando se esta creando el certificado de nuestra llave privada. En algunos casos en opcional y no es necesario especificarla, pero en nuestro caso es necesario indicarla.
+
 :::warning
 Esta información puede ser solicitada con el personal responsable de infraestructura.
 :::
+
 11. Da clic en el botón `Save Changes` (Guardar cambios) una vez que hayas completado el llenado de los 4 campos anteriormente descritos.
 12. Nos debe de mostrar nuevamente la pantalla `My Profiles`, da clic en el botón menú (poner icono aquí).
 13. Nos muestra la ventana `Ready to connect`.
@@ -55,7 +57,7 @@ Esta información puede ser solicitada con el personal responsable de infraestru
 15. Da clic en el botón `Connect` (Conectar).
 16. Una vez realizada la conexión, nos mostrará la ventana `Securely Connected!` (¡Conectado con seguridad!), similar o parecida a la siguiente imagen:
 
-![Se muestra la ventana inicial de OpenVPN, ahora ya lista para iniciar una conexión.](./img-rdp/rdp002.png)
+<img src={require('./img-rdp/rdp002.png').default} className="img-centrada" />
 
 17. Con esto comprobamos que nuestra configuración de VPN esta correctamente configurada.
 
@@ -84,5 +86,29 @@ Desde Windows 11 versión 23H2, la aplicación puede ser desinstalada. En caso d
 El proceso de reinstalación se describe de manera sencilla en [Microsoft Learn](https://learn.microsoft.com/es-es/windows-server/remote/remote-desktop-services/remotepc/uninstall-remote-desktop-connection?tabs=gui#reinstall-the-remote-desktop-connection-app), ya sea que se realice en la GUI o desde el [simbolo del sistema](https://learn.microsoft.com/es-es/windows-server/remote/remote-desktop-services/remotepc/uninstall-remote-desktop-connection?tabs=command-prompt#tabpanel_2_command-prompt).
 :::
 
-### Configuración de la aplicación
-Par
+### Configuración e inicio de sesión en la aplicación
+1. Abrir la aplicación `Conexión a escritorio remoto`.
+2. Se mostrará la siguiente ventana:<br />
+
+<img src={require('./img-rdp/rdp003.png').default} className="img-centrada" />
+
+3. En el campo indicado como **Equipo** se debe de indicar la dirección del equipo, se puede indicar el nombre del equipo o bien, la dirección IP, por ejemplo: `192.168.1.10`.
+4. Una vez que hemos escrito la dirección del **Equipo**, se debe dar clic en el botón `Conectar`.
+5. Ahora la aplicación nos debe de solicitar las credenciales para entrar en nuestra cuenta. Llenamos los campos de usuario y contraseña, adicional, vamos a marcar la casilla `Recordar`, para que almacene nuestras credenciales en el `Admministrador de credenciales` de Windows.<br />
+
+<img src={require('./img-rdp/rdp004.png').default} className="img-centrada" />
+
+:::warning[AVISO]
+Solo se deben de guardar las credenciales para usuarios finales. En el caso de los administradores no se debe de almacenar la cuenta, por temas de seguridad.
+:::
+
+6. Una vez que se validen nuestras credenciales nos mostrará una ventana con nuestro inicio de sesión en el escritorio remoto. <br />
+
+<img src={require('./img-rdp/rdp005.png').default} className="img-centrada" /> 
+
+7. Una vez que terminemos de usar el escritorio remoto, podemos finalizarlo dando clic en el ![Botón cerrar de la ventana Conexión a escritorio remoto mientras esta conectado.](./utils/boton-cerrar.png) botón cerrar de la ventana.
+
+:::danger[AVISO]
+Por política, una vez que se cierra la ventana el estado de la sesión será como **Desconectado**, el usuario tiene 30 minutos antes de que la cuenta sea finalizada por completo, **en caso de no haber guardado ningún documento o movimiento en sistema, puede provocar perdida de información. Por lo cual, el usuario tiene que ser informado de esta política**.
+:::
+

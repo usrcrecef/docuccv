@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Docosaurus - Crece con Vales
 
-Se ha hecho uso del framewor **Docosaurus** para tener un sitio documental sobre las *herramientas*, *procedimientos* y *procesos* del área de sistemas de la empresa Crece con Vales.
+Se ha hecho uso del framework **Docosaurus** para tener un sitio documental sobre las *herramientas*, *procedimientos* y *procesos* del área de sistemas de la empresa **Crece con Vales**.
 
-Así que vamos a descubir como funciona **Docusaurus en menos de 5 minutos**.
+Así que vamos a descubrir como funciona **Docusaurus en menos de 5 minutos**.
 
 ## Comenzando...
 
