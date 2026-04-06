@@ -111,4 +111,3 @@ Solo se deben de guardar las credenciales para usuarios finales. En el caso de l
 :::danger[AVISO]
 Por política, una vez que se cierra la ventana el estado de la sesión será como **Desconectado**, el usuario tiene 30 minutos antes de que la cuenta sea finalizada por completo, **en caso de no haber guardado ningún documento o movimiento en sistema, puede provocar perdida de información. Por lo cual, el usuario tiene que ser informado de esta política**.
 :::
-
