@@ -15,6 +15,8 @@ Para continuar con este apartado, es indispensable contar con una VPN que nos pe
 
 Una vez que tengamos establecido una VPN en la que el servidor del VPN, será necesario contar con la aplicación WinBox. La cual podemos descargar en su ultima versión desde el [siguiente enlace](https://mikrotik.com/download/winbox).
 
+## WinBox
+
 ### Descarga de WinBox
 Una vez que hemos accedido a la página de descarga de WinBox:
 
@@ -30,15 +32,33 @@ Una vez que hemos accedido a la página de descarga de WinBox:
 
 <img src={require('./img-vpn/vpn003.png').default} className="img-centrada" /><br />
 
-4. Damos clic en el botón ![Botón abrir carpeta](./utils/boton-abrir-carpeta.png), nos mostrará la carpeta de `Descargas` del usuario. Tal como se muestra en la siguiente imagen:
+4. Da clic en el botón ![Botón abrir carpeta](./utils/boton-abrir-carpeta.png), nos mostrará la carpeta de `Descargas` del usuario. Tal como se muestra en la siguiente imagen:
 
+<img src={require('./img-vpn/vpn005.png').default} className="img-centrada" /><br />
 
+5. Da clic derecho sobre el archivo que hemos descargado con el nombre `WinBox_Windows.zip`. Nos muestra el menú contextual.
 
-:::warning[AVISO]
+<img src={require('./img-vpn/vpn006.png').default} className="img-centrada" /><br />
 
+6. Da clic en la opción `Extraer todo...` ahora se muestra la siguiente ventana con el titulo **Extraer carpetas compartidas (en zip)**.
+
+<img src={require('./img-vpn/vpn007.png').default} className="img-centrada" /><br />
+
+7. En esta ventana, revisa que tengas seleccionada la casilla de verificación `Mostrar los archivos al completar` y da clic sobre el botón ![Botón extraer](./utils/boton-extraer-comprimido.png).
+
+8. Al finalizar de descomprimir, nos mostrará la ventana con los archivos comprimidos:
+
+<img src={require('./img-vpn/vpn008.png').default} className="img-centrada" /><br />
+
+9. Comprobamos que la aplicación funcione correctamente dando doble clic sobre icono de `WinBox.exe`. Nos muestra la ventana de la aplicación lista para iniciar una conexión con nuestro dispositivo Mikrotik.
+
+<img src={require('./img-vpn/vpn009.png').default} className="img-centrada" /><br />
+
+:::warning[Aviso]
+Por defecto, la aplicación va a buscar en nuestra red local a *vecinos*, es decir dispositivos Mikrotik con el puerto de escucha por defecto **8291**.
 :::
 
-## Alta de empleado en servidor Microsip
-:::tip[AVISO]
-Como anteiormente se ha mencionado es necesario contar con los accesos correspondientes del servidor de VPN.
-:::
+### Conexión a Mikrotik con WinBox
+Antes de comenzar es necesario realizar una conexión con a la VPN para estar en el mismo segmento de red en la que se encuentra nuestro servidor VPN. Consultar [](rdp.md#configuración-e-inicio-de-sesión-en-la-aplicación)
+
+Con la aplicación `WinBox` en ejecución, se
