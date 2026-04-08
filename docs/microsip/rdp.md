@@ -57,7 +57,7 @@ Esta información puede ser solicitada con el personal responsable de infraestru
 15. Da clic en el botón `Connect` (Conectar).
 16. Una vez realizada la conexión, nos mostrará la ventana `Securely Connected!` (¡Conectado con seguridad!), similar o parecida a la siguiente imagen:
 
-<img src={require('./img-rdp/rdp002.png').default} className="img-centrada" />
+<img src={require('./img-rdp/rdp002.png').default} className="img-centrada" style={{width: '45%'}} />
 
 17. Con esto comprobamos que nuestra configuración de VPN esta correctamente configurada.
 
@@ -66,7 +66,9 @@ Una vez que tengamos configurado OpenVPN Connect con un perfil de VPN, podremos 
 
 1. Abre la aplicación **OpenVPN Connect**.
 2. En la ventana con el titulo `Ready to connect`, nos mostrará nuestro perfil que configuramos [anteriormente](rdp.md#configuración-de-vpn-en-openvpn-connect).
-3. Da clic en el botón ![](./utils/boton-connect-ovpn.png)
+3. Da clic en el botón <img src={require('./utils/boton-connect-ovpn.png').default} style={{width: '120px'}}/>. Al conectarse nos debe de mostrar una ventana como la siguiente:
+
+<img src={require('./img-vpn/vpn010.png').default} className="img-centrada" style={{width: '45%'}} />
 
 ### Posibles problemas conocidos
 Voy a enumerar los posibles problemas que hasta el momento me he encontrado al momento de iniciar una conexión con OpenVPN Connect.
