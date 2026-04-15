@@ -15,7 +15,7 @@ Decidí que era momento de organizarlo todo en un solo lugar: **Árbol de Conoci
 
 Para lograrlo, elegí **Docusaurus**, un framework que convierte documentación en un sitio web moderno, rápido y fácil de mantener. En este post comparto cómo lo estructuré, qué problemas resolvió y por qué se ha convertido en una herramienta clave en mi flujo de trabajo.
 
-<!-- truncate -->
+{/* truncate */}
 
 ---
 

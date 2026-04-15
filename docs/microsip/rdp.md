@@ -19,7 +19,7 @@ Este manual describe el procedimiento para establecer una conexión a escritorio
 Antes de continuar, confirma que cumples con los siguientes requisitos:
 
 - [ ] Cuentas con un usuario de Windows Server con privilegios de `Administrador`.
-- [ ] Cuentas con un usuario de VPN activo y una sesión de VPN establecida. Consulta [Establecer conexión de VPN con OpenVPN Connect](./openvpn.md#4-establecer-conexión-de-vpn-con-openvpn-connect) si aún no has realizado este paso.
+- [ ] Cuentas con un usuario de VPN activo y una sesión de VPN establecida. Consulta [establecer conexión de VPN con OpenVPN Connect](./openvpn.md#4-establecer-conexión-de-vpn-con-openvpn-connect) si aún no has realizado este paso.
 - [ ] Utilizas Windows 10 o Windows 11 como sistema operativo.
 
 ### 1.2 Convenciones del documento

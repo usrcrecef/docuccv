@@ -21,7 +21,7 @@ Este manual describe los procedimientos técnicos para gestionar cuentas de usua
 Las operaciones descritas se realizan desde la aplicación **WinBox**, que establece una conexión directa con el dispositivo MikroTik y permite administrar el apartado **PPP** donde residen los usuarios de VPN.
 
 :::warning[Advertencia]
-Antes de continuar es indispensable contar con una conexión VPN activa que te permita alcanzar el mismo segmento de red en el que se encuentra el servidor MikroTik. Consulta el apartado [Configuración de OpenVPN Connect](./02.%20OpenVPN%20Connect.md#configuraci%C3%B3n-de-openvpn-connect) para configurar el acceso antes de continuar.
+Antes de continuar es indispensable contar con una conexión VPN activa que te permita alcanzar el mismo segmento de red en el que se encuentra el servidor MikroTik. Consulta el apartado [_Configuración de VPN en OpenVPN Connect_](./openvpn#3-configuración-de-vpn-en-openvpn-connect) para configurar el acceso antes de continuar.
 :::
 
 ### 1.1 Convenciones del documento
@@ -61,7 +61,7 @@ Por defecto, WinBox escanea la red local en busca de dispositivos MikroTik que e
 Antes de realizar cualquier operación sobre los usuarios de VPN, establece la conexión con el dispositivo MikroTik. Para ello necesitas credenciales con permisos sobre el apartado **PPP**, ya que sin este nivel de acceso no podrás crear, modificar, desactivar ni eliminar usuarios.
 
 :::warning[Advertencia]
-Asegúrate de tener una sesión de VPN activa antes de intentar conectarte. Consulta [[02. ORIGINAL - OpenVPN Connect#Establecer conexión de VPN con OpenVPN Connect]] si necesitas iniciar la conexión.
+Asegúrate de tener una sesión de VPN activa antes de intentar conectarte. Consulta [_Configuración de VPN en OpenVPN Connect_](./openvpn#3-configuración-de-vpn-en-openvpn-connect) si necesitas iniciar la conexión.
 :::
 
 Sigue los pasos a continuación para conectarte al dispositivo MikroTik desde WinBox:
@@ -110,7 +110,7 @@ Al crear o modificar un Secret, rellena los campos conforme a la siguiente tabla
 |---|---|---|
 |**Comment**|Nombre completo - Puesto - Empresa|_Juan Antonio López Cabrera - Contador - Crece_|
 |**Name**|Iniciales del nombre + primer apellido (minúsculas)|_jalopez_|
-|**Password**|Contraseña generada conforme a la política del [[#3. Política de contraseñas\|apartado 3]]|_lv5o~JtAPVyuBtiDmW_|
+|**Password**|Contraseña generada conforme a la política del [apartado 3](usuarios-vpn.md#3-política-de-contraseñas)|_lv5o~JtAPVyuBtiDmW_|
 |**Service**|`ovpn`|—|
 |**Profile**|`vpn`|—|
 
@@ -131,8 +131,8 @@ Para garantizar aleatoriedad y cumplimiento de la política, utiliza una de las 
 
 |Herramienta|Tipo|Referencia|
 |---|---|---|
-|**KeePass**|Aplicación de escritorio (sin conexión)|keepass.info|
-|**Avast Random Password Generator**|Generador en línea|avast.com/random-password-generator|
+|**KeePass**|Aplicación de escritorio (sin conexión)| [keepass.info](https://keepass.info)|
+|**Avast Random Password Generator**|Generador en línea|[avast.com/random-password-generator](https://avast.com/random-password-generator)|
 
 :::note[Nota]
 Configura la herramienta generadora con longitud de **18 caracteres**, mayúsculas, minúsculas, números y caracteres especiales activados para asegurarte de que la contraseña cumple con todos los requisitos en un solo paso.
@@ -149,7 +149,7 @@ Registra la contraseña generada en el gestor de contraseñas corporativo o entr
 Un usuario de VPN está ligado a un **Secret PPP** en el dispositivo MikroTik. El acceso del colaborador depende tanto de las credenciales del Secret como del perfil asociado, por lo que es indispensable completar **todos los pasos** de este apartado.
 
 :::note[Nota]
-Antes de comenzar, asegúrate de tener una sesión de VPN activa y una conexión establecida con el dispositivo MikroTik desde WinBox. Consulta el [[#1.3 Conexión a WinBox antes de gestionar usuarios|apartado 1.3]] si aún no has realizado este paso.
+Antes de comenzar, asegúrate de tener una sesión de VPN activa y una conexión establecida con el dispositivo MikroTik desde WinBox. Consulta el [apartado 1.3](./usuarios-vpn.md#13-conexión-a-winbox-antes-de-gestionar-usuarios) si aún no has realizado este paso.
 :::
 
 ### 4.1 Creación del Secret
@@ -157,10 +157,10 @@ Antes de comenzar, asegúrate de tener una sesión de VPN activa y una conexión
 1. En WinBox, da clic en la sección **PPP** del menú lateral izquierdo.
 2. En la ventana que se abre, da clic sobre la pestaña **Secrets**.
 3. Da clic en el botón **New** para abrir el formulario de creación.
-4. Rellena los campos conforme a la tabla del [[#2.3 Campos del perfil de usuario (Secret)|apartado 2.3]]:
+4. Rellena los campos conforme a la tabla del [apartado 2.3](./usuarios-vpn.md#23-campos-del-perfil-de-usuario-secret): 
     - **Comment:** escribe el nombre completo del colaborador, su puesto y la empresa, separados por guiones medios (por ejemplo: _Juan Antonio López Cabrera - Contador - Crece_).
-    - **Name:** escribe el nombre de usuario generado conforme a la convención del [[#2.1 Nombre de usuario (Name / Secret)|apartado 2.1]] (por ejemplo: _jalopez_).
-    - **Password:** da clic en el botón **+** para habilitar el campo de texto y escribe la contraseña generada conforme a la política del [[#3. Política de contraseñas|apartado 3]].
+    - **Name:** escribe el nombre de usuario generado conforme a la convención del [apartado 2.1](./usuarios-vpn.md#21-nombre-de-usuario-name--secret) (por ejemplo: _jalopez_).
+    - **Password:** da clic en el botón **+** para habilitar el campo de texto y escribe la contraseña generada conforme a la política del [apartado 3](./usuarios-vpn.md#3-política-de-contraseñas).
     - **Service:** selecciona `ovpn` de la lista desplegable.
     - **Profile:** selecciona `vpn` de la lista desplegable.
 5. Da clic en el botón **OK** para guardar el Secret.
@@ -227,14 +227,14 @@ Para solicitar la eliminación de un usuario de VPN es obligatorio enviar un cor
 :::
 
 :::warning[Advertencia]
-La eliminación de un Secret es **irreversible**. Una vez eliminado, no es posible recuperarlo. Si existe la posibilidad de que el acceso sea necesario en el futuro, considera desactivar el Secret en lugar de eliminarlo (ver [[#6. Desactivación de usuario de VPN|apartado 6]]).
+La eliminación de un Secret es **irreversible**. Una vez eliminado, no es posible recuperarlo. Si existe la posibilidad de que el acceso sea necesario en el futuro, considera desactivar el Secret en lugar de eliminarlo (ver [apartado 6](./usuarios-vpn.md#6-desactivación-de-usuario-de-vpn)).
 :::
 
 ### 7.1 Lista de verificación previa a la eliminación
 
 Antes de eliminar el Secret, confirma que se han completado los siguientes puntos:
 
-- [ ] El Secret está desactivado (ver [[#6. Desactivación de usuario de VPN|apartado 6]]).
+- [ ] El Secret está desactivado (ver [apartado 6](./usuarios-vpn.md#6-desactivación-de-usuario-de-vpn)).
 - [ ] Se cuenta con autorización formal (correo electrónico o ticket) del responsable del área.
 - [ ] El colaborador ha sido notificado de la baja de su acceso.
 
