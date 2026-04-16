@@ -113,10 +113,10 @@ Sigue los pasos a continuación para crear una nueva cuenta de usuario en el ser
 ### 4.2 Creación de la cuenta
 
 1. En el panel central, da clic derecho sobre un área vacía y selecciona **Usuario nuevo**.
-2. En el campo **Nombre de usuario**, escribe el nombre de usuario generado conforme a la convención de nomenclatura del [[#2. Convenciones de nomenclatura|apartado 2]] (por ejemplo: _jalopez_).
+2. En el campo **Nombre de usuario**, escribe el nombre de usuario generado conforme a la convención de nomenclatura del [apartado 2](./usuarios-rdp.md#2-convenciones-de-nomenclatura) (por ejemplo: _jalopez_).
 3. En el campo **Nombre completo**, escribe el nombre completo del empleado (por ejemplo: _Juan Antonio López Cabrera_).
-4. Deja en blanco el campo **Descripción** por ahora; se completará en el [[#4.3 Agregar el campo Descripción|apartado 4.3]].
-5. En el campo **Contraseña**, escribe la contraseña generada conforme a la política del [[#3. Política de contraseñas|apartado 3]].
+4. Deja en blanco el campo **Descripción** por ahora; se completará en el [apartado 4.3](./usuarios-rdp.md#43-agregar-el-campo-descripción).
+5. En el campo **Contraseña**, escribe la contraseña generada conforme a la política del [apartado 3](./usuarios-rdp.md#3-política-de-contraseñas).
 6. En el campo **Confirmar contraseña**, vuelve a escribir la misma contraseña.
 7. Configura las opciones de la cuenta conforme a la siguiente tabla:
 
@@ -180,13 +180,13 @@ Realiza únicamente los cambios solicitados. Los campos más comunes a actualiza
 
 - **Nombre completo** → pestaña **General**, campo **Nombre completo**.
 - **Descripción** → pestaña **General**, campo **Descripción** (formato: _Puesto - Empresa_).
-- **Membresía de grupos** → carpeta **Grupos** de la consola (ver [[#4.4 Agregar el usuario a los grupos requeridos|apartado 4.4]]).
+- **Membresía de grupos** → carpeta **Grupos** de la consola (ver [apartado 4.4](./usuarios-rdp.md#44-agregar-el-usuario-a-los-grupos-requeridos)).
 
 ### 5.3 Restablecer la contraseña
 
 1. En la consola **Administración de equipos**, da clic derecho sobre el usuario.
 2. Selecciona **Restablecer contraseña**.
-3. Escribe la nueva contraseña conforme a la política del [[#3. Política de contraseñas|apartado 3]].
+3. Escribe la nueva contraseña conforme a la política del [apartado 3](./usuarios-rdp.md#3-política-de-contraseñas).
 4. Confirma la contraseña en el campo correspondiente.
 5. Deja sin marcar la casilla **El usuario debe cambiar la contraseña en el siguiente inicio de sesión**.
 6. Da clic en **Aceptar**.
@@ -228,7 +228,7 @@ Si necesitas reactivar una cuenta previamente deshabilitada, realiza los pasos s
 3. Da clic en **Aplicar** y luego en **Aceptar**.
 
 :::warning[Advertencia]
-Tras reactivar la cuenta, restablece la contraseña conforme al procedimiento del [[#5.3 Restablecer la contraseña|apartado 5.3]] antes de notificar al colaborador, ya que la contraseña original puede haber sido comprometida.
+Tras reactivar la cuenta, restablece la contraseña conforme al procedimiento del [apartado  5.3](./usuarios-rdp.md#53-restablecer-la-contraseña) antes de notificar al colaborador, ya que la contraseña original puede haber sido comprometida.
 :::
 
 ---
@@ -245,7 +245,7 @@ La eliminación de una cuenta de usuario local es **irreversible**. Una vez elim
 
 Antes de eliminar la cuenta, confirma que se han completado los siguientes puntos:
 
-- [ ] La cuenta está deshabilitada (ver [[#6. Desactivación de usuario|apartado 6]]).
+- [ ] La cuenta está deshabilitada (ver [apartado 6](./usuarios-rdp.md#6-desactivación-de-usuario)).
 - [ ] Se ha realizado respaldo o transferencia del perfil del usuario.
 - [ ] Se ha transferido la propiedad de sus archivos compartidos y buzón de correo.
 - [ ] Se cuenta con autorización formal (por escrito o por ticket) del responsable del área.
