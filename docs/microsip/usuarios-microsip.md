@@ -74,7 +74,7 @@ Al crear o modificar un usuario, rellena los campos conforme a la siguiente tabl
 |---|---|---|
 |**Tipo de elemento**|`Usuario`|—|
 |**Nombre**|Iniciales del nombre + primer apellido (minúsculas)|_jalopez_|
-|**Contraseña**|Contraseña generada conforme a la política del [[#3. Política de contraseñas\|apartado 3]]|—|
+|**Contraseña**|Contraseña generada conforme a la política del [apartado 3](./usuarios-microsip.md#3-política-de-contraseñas).|—|
 |**Confirmación de contraseña**|Repetir la misma contraseña|—|
 |**Rol**|Perfil de permisos asignado al colaborador (por ejemplo: `Contabilidad`)|_Contabilidad_|
 |**Empresas autorizadas**|`Todas` o selección de una lista según corresponda|—|
@@ -114,7 +114,7 @@ Registra la contraseña generada en el gestor de contraseñas corporativo o entr
 Antes de crear un usuario, confirma que se han completado los siguientes puntos:
 
 - [ ] Existe un rol (perfil de permisos) creado para el puesto del colaborador. Si no existe, créalo antes de continuar.
-- [ ] Cuentas con el nombre de usuario generado conforme a la convención del [[#2. Convenciones de nomenclatura|apartado 2]].
+- [ ] Cuentas con el nombre de usuario generado conforme a la convención del [apartado 2](./usuarios-microsip.md#2-convenciones-de-nomenclatura).
 - [ ] Cuentas con la contraseña generada conforme a la política del [[#3. Política de contraseñas|apartado 3]].
 
 :::note[Nota]
