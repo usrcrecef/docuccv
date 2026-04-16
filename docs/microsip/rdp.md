@@ -1,5 +1,5 @@
 ---
-title: Configuración a conexión a escritorio remoto (RDP)
+title: Configuración a conexión a escritorio remoto
 sidebar_position: 3
 filename: rdp.md
 ---
@@ -80,6 +80,14 @@ Cuando termines de usar el escritorio remoto, da clic en el botón cerrar de la 
 :::warning[Advertencia]
 Por política, al cerrar la ventana la sesión queda en estado **Desconectado**. El usuario dispone de **30 minutos** antes de que la sesión sea finalizada por completo. Si en ese tiempo no se han guardado documentos o movimientos en el sistema, se puede producir **pérdida de información**. Informa de esta política a cada usuario antes de que utilice el escritorio remoto por primera vez.
 :::
+
+---
+
+## 5. Tabla de referencia rápida
+
+|Operación|Descripción|Apartado|
+|---|---|---|
+|**Inico de sesión**|Inicio de sesión con Conexión a escritorio remoto de Windows.|§3|
 
 ---
 

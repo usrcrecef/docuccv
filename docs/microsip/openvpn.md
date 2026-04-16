@@ -119,4 +119,15 @@ Para resolverlo:
 
 ---
 
+## 6. Tabla de referencia rápida
+
+|Operación|Descripción|Apartado|
+|---|---|---|
+|**Instalación**|Instalación de OpenVPN Connect.|§2|
+|**Configuración**|Configuración de la aplicación.|§3|
+|**Conexión**|Conexión de VPN.|§4|
+|**Problemas conocidos**|Soluciones a problemas conocidos.|§5|
+
+---
+
 _Manual Técnico — Gestión para servidor Microsip ERP en Crece con Vales · Versión 0.1 Borrador_
