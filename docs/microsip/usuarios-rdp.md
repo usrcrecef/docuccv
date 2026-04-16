@@ -20,6 +20,10 @@ Este manual describe los procedimientos técnicos para administrar cuentas de us
 
 Las operaciones descritas se realizan desde la consola **Administración de equipos**, en la sección **Usuarios y grupos locales**, disponible directamente en el servidor.
 
+:::note[Aviso]
+Confirma que puedas establecer una [conexión de VPN](./openvpn.md#4-establecer-conexión-de-vpn-con-openvpn-connect) y realizar una [conexión de escritorio remoto](./rdp.md#3-configuración-e-inicio-de-sesión) al servidor de Microsip.
+:::
+
 :::note[Nota]
 Para ejecutar las operaciones descritas en este manual necesitas iniciar sesión con una cuenta que tenga privilegios de **Administrador local** en el servidor.
 :::

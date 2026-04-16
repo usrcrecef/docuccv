@@ -20,6 +20,10 @@ Este manual describe los procedimientos técnicos para gestionar cuentas de usua
 
 Las operaciones descritas se realizan desde la aplicación **WinBox**, que establece una conexión directa con el dispositivo MikroTik y permite administrar el apartado **PPP** donde residen los usuarios de VPN.
 
+:::note[Aviso]
+Confirma que puedas establecer una [conexión de VPN](./openvpn.md#4-establecer-conexión-de-vpn-con-openvpn-connect) y realizar una [conexión de escritorio remoto](./rdp.md#3-configuración-e-inicio-de-sesión) al servidor de Microsip.
+:::
+
 :::warning[Advertencia]
 Antes de continuar es indispensable contar con una conexión VPN activa que te permita alcanzar el mismo segmento de red en el que se encuentra el servidor MikroTik. Consulta el apartado [_Configuración de VPN en OpenVPN Connect_](./openvpn#3-configuración-de-vpn-en-openvpn-connect) para configurar el acceso antes de continuar.
 :::

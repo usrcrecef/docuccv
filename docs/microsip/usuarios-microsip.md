@@ -17,6 +17,10 @@ Este manual describe los procedimientos técnicos para administrar cuentas de us
 
 Las operaciones descritas se realizan desde el módulo **Administración del sistema** (AdminSys), accesible desde la barra principal de Microsip. Para ejecutarlas necesitas iniciar sesión con la cuenta `SYSDBA` o con una cuenta de usuario que tenga habilitada la opción **Autorizar acciones a otros usuarios**.
 
+:::note[Aviso]
+Confirma que puedas establecer una [conexión de VPN](./openvpn.md#4-establecer-conexión-de-vpn-con-openvpn-connect) y realizar una [conexión de escritorio remoto](./rdp.md#3-configuración-e-inicio-de-sesión) al servidor de Microsip.
+:::
+
 :::warning[Advertencia]
 Por política de seguridad, las credenciales de la cuenta `SYSDBA` no deben compartirse con usuarios finales. Toda gestión de usuarios debe realizarla exclusivamente el personal del área de sistemas.
 :::
