@@ -115,7 +115,7 @@ Antes de crear un usuario, confirma que se han completado los siguientes puntos:
 
 - [ ] Existe un rol (perfil de permisos) creado para el puesto del colaborador. Si no existe, créalo antes de continuar.
 - [ ] Cuentas con el nombre de usuario generado conforme a la convención del [apartado 2](./usuarios-microsip.md#2-convenciones-de-nomenclatura).
-- [ ] Cuentas con la contraseña generada conforme a la política del [[#3. Política de contraseñas|apartado 3]].
+- [ ] Cuentas con la contraseña generada conforme a la política del [apartado 3](./usuarios-microsip.md#3-política-de-contraseñas).
 
 :::note[Nota]
 Microsip recomienda crear primero los roles (perfiles de permisos) antes de registrar usuarios. Los roles típicos son: `Caja`, `Supervisor`, `Administrador`, `Contabilidad`, entre otros. Si el rol requerido no existe, coordínate con el responsable del sistema para crearlo.
@@ -123,11 +123,11 @@ Microsip recomienda crear primero los roles (perfiles de permisos) antes de regi
 
 ### 4.2 Creación del usuario
 
-1. Accede al visor de usuarios conforme al [[#1.2 Acceso al módulo de administración|apartado 1.2]].
+1. Accede al visor de usuarios conforme al [apartado 1.2](./usuarios-microsip.md#12-acceso-al-módulo-de-administración).
 2. En la barra de herramientas, da clic en el botón **Nuevo**.
 3. En la ventana que se abre, selecciona `Usuario` en el campo **Tipo de elemento**.
-4. En el campo **Nombre**, escribe el nombre de usuario generado conforme a la convención del [[#2.1 Nombre de usuario|apartado 2.1]] (por ejemplo: _jalopez_).
-5. En el campo **Contraseña**, escribe la contraseña generada conforme a la política del [[#3. Política de contraseñas|apartado 3]].
+4. En el campo **Nombre**, escribe el nombre de usuario generado conforme a la convención del [apartado 2.1](./usuarios-microsip.md#21-nombre-de-usuario) (por ejemplo: _jalopez_).
+5. En el campo **Contraseña**, escribe la contraseña generada conforme a la política del [apartado 3](./usuarios-microsip.md#3-política-de-contraseñas).
 6. En el campo **Confirmación de contraseña**, vuelve a escribir la misma contraseña.
 7. En el campo **Rol**, selecciona el perfil de permisos correspondiente al puesto del colaborador.
 8. En el campo **Empresas autorizadas**, selecciona `Todas` o elige `Una lista` para restringir el acceso a empresas o sucursales específicas.
@@ -143,7 +143,7 @@ El sistema establece automáticamente el estado **Activo** al crear un nuevo usu
 
 ## 5. Modificación de usuario
 
-1. Accede al visor de usuarios conforme al [[#1.2 Acceso al módulo de administración|apartado 1.2]].
+1. Accede al visor de usuarios conforme al [apartado 1.2](./usuarios-microsip.md#12-acceso-al-módulo-de-administración).
 2. Localiza al usuario que vas a modificar en la lista.
 3. Da doble clic sobre el registro del usuario para abrir su ficha.
 4. Da clic en el ícono **Modificar** (lápiz) para habilitar la edición.
@@ -151,7 +151,7 @@ El sistema establece automáticamente el estado **Activo** al crear un nuevo usu
 
 |Campo|Descripción|
 |---|---|
-|**Contraseña**|Restablece la contraseña conforme a la política del [[#3. Política de contraseñas\|apartado 3]].|
+|**Contraseña**|Restablece la contraseña conforme a la política del [apartado 3](./usuarios-microsip.md#3-política-de-contraseñas).|
 |**Rol**|Cambia el perfil de permisos asignado al colaborador.|
 |**Empresas autorizadas**|Ajusta el acceso a empresas o sucursales.|
 |**Autorizar acciones a otros**|Activa o desactiva el permiso de administración delegada.|
@@ -169,7 +169,7 @@ Notifica al colaborador cualquier cambio en sus credenciales para que pueda inic
 
 Utiliza esta opción cuando un colaborador deba cesar el acceso de forma temporal. La desactivación conserva el registro en el sistema, lo que permite reactivarlo sin necesidad de volver a configurar sus permisos.
 
-1. Accede al visor de usuarios conforme al [[#1.2 Acceso al módulo de administración|apartado 1.2]].
+1. Accede al visor de usuarios conforme al [apartado 1.2](./usuarios-microsip.md#12-acceso-al-módulo-de-administración).
 2. Localiza al usuario que vas a desactivar en la lista.
 3. Da doble clic sobre el registro del usuario para abrir su ficha.
 4. Da clic en el ícono **Modificar** (lápiz) para habilitar la edición.
@@ -189,7 +189,7 @@ Si necesitas reactivar un usuario previamente desactivado, realiza los pasos sig
 6. Verifica en el visor de usuarios que el registro muestra nuevamente el estado **Activo**.
 
 :::note[Nota]
-Tras reactivar un usuario, verifica que su contraseña sigue siendo válida. Si hay duda sobre si fue comprometida durante el periodo de baja, restablécela conforme al procedimiento del [[#5. Modificación de usuario|apartado 5]].
+Tras reactivar un usuario, verifica que su contraseña sigue siendo válida. Si hay duda sobre si fue comprometida durante el periodo de baja, restablécela conforme al procedimiento del [apartado 5](./usuarios-microsip.md#5-modificación-de-usuario).
 :::
 
 ---
@@ -197,20 +197,20 @@ Tras reactivar un usuario, verifica que su contraseña sigue siendo válida. Si 
 ## 7. Eliminación de usuario
 
 :::warning[Advertencia]
-Antes de eliminar un usuario, considera si la desactivación es suficiente (ver [[#6. Desactivación de usuario|apartado 6]]). La eliminación es permanente e irreversible; una vez eliminado el registro, no es posible recuperarlo.
+Antes de eliminar un usuario, considera si la desactivación es suficiente (ver [apartado 6](./usuarios-microsip.md#6-desactivación-de-usuario)). La eliminación es permanente e irreversible; una vez eliminado el registro, no es posible recuperarlo.
 :::
 
 ### 7.1 Lista de verificación previa a la eliminación
 
 Antes de eliminar el usuario, confirma que se han completado los siguientes puntos:
 
-- [ ] El usuario está en estado **Baja** (ver [[#6. Desactivación de usuario|apartado 6]]).
+- [ ] El usuario está en estado **Baja** (ver [apartado 6](./usuarios-microsip.md#6-desactivación-de-usuario)).
 - [ ] Se cuenta con autorización formal (correo electrónico o ticket) del responsable del área.
 - [ ] El colaborador ha sido notificado de la baja de su acceso al sistema.
 
 ### 7.2 Procedimiento de eliminación
 
-1. Accede al visor de usuarios conforme al [[#1.2 Acceso al módulo de administración|apartado 1.2]].
+1. Accede al visor de usuarios conforme al [apartado 1.2](./usuarios-microsip.md#12-acceso-al-módulo-de-administración).
 2. Localiza al usuario que vas a eliminar en la lista.
 3. Selecciona el registro haciendo clic sobre él.
 4. En la barra de herramientas, da clic en el botón **Eliminar**.
