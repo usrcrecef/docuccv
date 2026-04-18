@@ -4,7 +4,7 @@ description: "Cómo estructuré mi sistema personal de documentación técnica u
 slug: arbol-de-conocimientos-docusaurus
 authors: [juande]
 tags: [documentacion, docusaurus, conocimiento, productividad]
-date: 2026-03-26
+date: 2026-03-28
 ---
 
 # 🌳 Colocando la primer semilla para el Árbol de Conocimientos para Crece con vales
