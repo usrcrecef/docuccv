@@ -29,6 +29,7 @@ jobs:
         host: ${{ secrets.SERVER_HOST }}
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
+        port: 62189
         source: "build/*"
         target: ${{ secrets.SERVER_PATH }}
 
