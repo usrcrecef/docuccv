@@ -40,5 +40,6 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 62189
+        timeout: 60s
         script: |
           sudo systemctl reload nginx

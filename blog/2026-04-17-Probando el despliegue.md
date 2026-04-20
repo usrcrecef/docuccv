@@ -9,6 +9,8 @@ date: 2026-04-17
 
 Esta es una prueba para ver si hace el despliegue correctamente.
 
+{/* truncate */}
+
 Este es el segundo intento.
 
 Tercer intento.
@@ -20,3 +22,5 @@ Cuarto intento
 6to
 
 7mo
+
+9no
