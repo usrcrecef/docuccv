@@ -1,7 +1,7 @@
 ---
 title: "Probando el despliegue"
 description: "Pruebas para generar un despliegue desde GitHub Actions."
-slug: arbol-de-conocimientos-docusaurus
+slug: probando-despliegue
 authors: [juande]
 tags: [git, docusaurus, automatizacion]
 date: 2026-04-17
