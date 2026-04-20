@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_ccv=self.webpackChunkdocs_ccv||[]).push([["3220"],{1912(c){c.exports=JSON.parse('{"blogBasePath":"/docuccv/blog","blogTitle":"Blog","authorsListPath":"/docuccv/blog/authors"}')}}]);

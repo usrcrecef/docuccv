@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Árbol de conocimiento Blog</title>
+        <link>https://usrcrecef.github.io/docuccv/blog</link>
+        <description>Árbol de conocimiento Blog</description>
+        <lastBuildDate>Fri, 17 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>es</language>
+        <item>
+            <title><![CDATA[Probando el despliegue]]></title>
+            <link>https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus</link>
+            <guid>https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus</guid>
+            <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pruebas para generar un despliegue desde GitHub Actions.]]></description>
+            <content:encoded><![CDATA[<p>Esta es una prueba para ver si hace el despliegue correctamente.</p>
+<!-- -->
+<p>Este es el segundo intento.</p>
+<p>Tercer intento.</p>
+<p>Cuarto intento</p>
+<p>5to</p>
+<p>6to</p>
+<p>7mo</p>
+<p>9no</p>]]></content:encoded>
+            <category>Git</category>
+            <category>Docusaurus</category>
+            <category>Automatización</category>
+        </item>
+        <item>
+            <title><![CDATA[Plantando la semilla para el Árbol de Conocimientos con Docusaurus]]></title>
+            <link>https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus</link>
+            <guid>https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus</guid>
+            <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cómo estructuré mi sistema personal de documentación técnica usando Docusaurus.]]></description>
+            <content:encoded><![CDATA[<p>Esta es una prueba para ver si hace el despliegue correctamente.</p>
+<!-- -->
+<p>Este es el segundo intento.</p>
+<p>Tercer intento.</p>
+<p>Cuarto intento</p>
+<p>5to</p>
+<p>6to</p>
+<p>7mo</p>
+<p>9no</p>]]></content:encoded>
+            <category>Documentación</category>
+            <category>Docusaurus</category>
+            <category>Conocimiento</category>
+            <category>Productividad</category>
+        </item>
+    </channel>
+</rss>
