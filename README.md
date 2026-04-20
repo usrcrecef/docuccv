@@ -36,5 +36,6 @@ Sin usar SSH:
 
 ```bash
 GIT_USER=<Tu usuario de GitHub> npm run deploy
+```
 
 Si estás utilizando GitHub Pages para el alojamiento, este comando es conveniento para construir y subir a la rama `gh-pages`.
