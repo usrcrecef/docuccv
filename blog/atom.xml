@@ -9,8 +9,8 @@
     <icon>https://usrcrecef.github.io/docuccv/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Probando el despliegue]]></title>
-        <id>https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus</id>
-        <link href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus"/>
+        <id>https://usrcrecef.github.io/docuccv/blog/probando-despliegue</id>
+        <link href="https://usrcrecef.github.io/docuccv/blog/probando-despliegue"/>
         <updated>2026-04-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Pruebas para generar un despliegue desde GitHub Actions.]]></summary>
         <content type="html"><![CDATA[<p>Esta es una prueba para ver si hace el despliegue correctamente.</p>
@@ -37,16 +37,74 @@
         <link href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus"/>
         <updated>2026-03-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Cómo estructuré mi sistema personal de documentación técnica usando Docusaurus.]]></summary>
-        <content type="html"><![CDATA[<p>Esta es una prueba para ver si hace el despliegue correctamente.</p>
+        <content type="html"><![CDATA[<p>En los tres meses que llevo en la empresa he acumulado notas, documentación técnica, guías de despliegue, configuraciones de servidores y aprendizajes sueltos. Mucho de ese conocimiento vivía en archivos dispersos, mensajes, repositorios o incluso en mi memoria.</p>
+<p>Decidí que era momento de organizarlo todo en un solo lugar: <strong>Árbol de Conocimientos</strong>.</p>
+<p>Para lograrlo, elegí <strong>Docusaurus</strong>, un framework que convierte documentación en un sitio web moderno, rápido y fácil de mantener. En este post comparto cómo lo estructuré, qué problemas resolvió y por qué se ha convertido en una herramienta clave en mi flujo de trabajo.</p>
 <!-- -->
-<p>Este es el segundo intento.</p>
-<p>Tercer intento.</p>
-<p>Cuarto intento</p>
-<p>5to</p>
-<p>6to</p>
-<p>7mo</p>
-<p>9no</p>
-<p>10ma</p>]]></content>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-qué-es-mi-árbol-de-conocimientos">🌱 ¿Qué es mi Árbol de Conocimientos?<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-qu%C3%A9-es-mi-%C3%A1rbol-de-conocimientos" class="hash-link" aria-label="Enlace directo al 🌱 ¿Qué es mi Árbol de Conocimientos?" title="Enlace directo al 🌱 ¿Qué es mi Árbol de Conocimientos?" translate="no">​</a></h2>
+<p>Es un repositorio vivo donde documento:</p>
+<ul>
+<li class="">Procedimientos técnicos que uso en mi día a día</li>
+<li class="">Configuraciones de servidores (Ubuntu, Nginx, WSL, Arch, etc.)</li>
+<li class="">Guías de despliegue y automatización</li>
+<li class="">Buenas prácticas de infraestructura</li>
+<li class="">Notas de aprendizaje continuo</li>
+<li class="">Snippets, comandos y soluciones a problemas reales</li>
+</ul>
+<p>La idea es simple: <strong>si lo aprendí una vez, no quiero volver a buscarlo</strong>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-por-qué-docusaurus">🌿 ¿Por qué Docusaurus?<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-por-qu%C3%A9-docusaurus" class="hash-link" aria-label="Enlace directo al 🌿 ¿Por qué Docusaurus?" title="Enlace directo al 🌿 ¿Por qué Docusaurus?" translate="no">​</a></h2>
+<p>Elegí Docusaurus por varias razones:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-markdown-como-base">🔹 Markdown como base<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-markdown-como-base" class="hash-link" aria-label="Enlace directo al 🔹 Markdown como base" title="Enlace directo al 🔹 Markdown como base" translate="no">​</a></h3>
+<p>Puedo escribir rápido, versionar con Git y mantener todo limpio.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-navegación-jerárquica">🔹 Navegación jerárquica<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-navegaci%C3%B3n-jer%C3%A1rquica" class="hash-link" aria-label="Enlace directo al 🔹 Navegación jerárquica" title="Enlace directo al 🔹 Navegación jerárquica" translate="no">​</a></h3>
+<p>Perfecto para representar un “árbol” de temas:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-blog-integrado">🔹 Blog integrado<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-blog-integrado" class="hash-link" aria-label="Enlace directo al 🔹 Blog integrado" title="Enlace directo al 🔹 Blog integrado" translate="no">​</a></h3>
+<p>Puedo documentar avances, experimentos y reflexiones sin mezclarlo con la documentación técnica.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-fácil-de-desplegar">🔹 Fácil de desplegar<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-f%C3%A1cil-de-desplegar" class="hash-link" aria-label="Enlace directo al 🔹 Fácil de desplegar" title="Enlace directo al 🔹 Fácil de desplegar" translate="no">​</a></h3>
+<p>Funciona con GitHub Pages, Vercel, Netlify o cualquier servidor estático.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-cómo-estructuré-mi-documentación">🌲 Cómo estructuré mi documentación<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-c%C3%B3mo-estructur%C3%A9-mi-documentaci%C3%B3n" class="hash-link" aria-label="Enlace directo al 🌲 Cómo estructuré mi documentación" title="Enlace directo al 🌲 Cómo estructuré mi documentación" translate="no">​</a></h2>
+<p>Mi árbol está dividido en tres grandes ramas:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-documentación-técnica-la-base-del-árbol"><strong>1. Documentación técnica (la base del árbol)</strong><a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#1-documentaci%C3%B3n-t%C3%A9cnica-la-base-del-%C3%A1rbol" class="hash-link" aria-label="Enlace directo al 1-documentación-técnica-la-base-del-árbol" title="Enlace directo al 1-documentación-técnica-la-base-del-árbol" translate="no">​</a></h3>
+<p>Aquí guardo todo lo que necesito para trabajar:</p>
+<ul>
+<li class="">Instalación y configuración de entornos</li>
+<li class="">Troubleshooting real</li>
+<li class="">Scripts reutilizables</li>
+<li class="">Guías de despliegue paso a paso</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-procedimientos-operativos-las-ramas-fuertes"><strong>2. Procedimientos operativos (las ramas fuertes)</strong><a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#2-procedimientos-operativos-las-ramas-fuertes" class="hash-link" aria-label="Enlace directo al 2-procedimientos-operativos-las-ramas-fuertes" title="Enlace directo al 2-procedimientos-operativos-las-ramas-fuertes" translate="no">​</a></h3>
+<p>Son mis SOPs personales:</p>
+<ul>
+<li class="">Cómo migrar un servidor</li>
+<li class="">Cómo configurar un reverse proxy</li>
+<li class="">Cómo asegurar un Ubuntu Server</li>
+<li class="">Cómo desplegar una app en producción</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-blog-personal-las-hojas-nuevas"><strong>3. Blog personal (las hojas nuevas)</strong><a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#3-blog-personal-las-hojas-nuevas" class="hash-link" aria-label="Enlace directo al 3-blog-personal-las-hojas-nuevas" title="Enlace directo al 3-blog-personal-las-hojas-nuevas" translate="no">​</a></h3>
+<p>Aquí escribo sobre:</p>
+<ul>
+<li class="">Lo que aprendí esta semana</li>
+<li class="">Cambios en mi infraestructura</li>
+<li class="">Nuevas herramientas que estoy probando</li>
+<li class="">Reflexiones sobre productividad y tecnología</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-beneficios-que-he-notado">🌼 Beneficios que he notado<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-beneficios-que-he-notado" class="hash-link" aria-label="Enlace directo al 🌼 Beneficios que he notado" title="Enlace directo al 🌼 Beneficios que he notado" translate="no">​</a></h2>
+<p>Desde que empecé este proyecto:</p>
+<ul>
+<li class=""><strong>Trabajo más rápido</strong>: ya no pierdo tiempo buscando soluciones que ya conocía.</li>
+<li class=""><strong>Documentar se volvió natural</strong>: cada aprendizaje se convierte en una entrada.</li>
+<li class=""><strong>Mi conocimiento es portable</strong>: vive en Git, puedo clonarlo donde sea.</li>
+<li class=""><strong>Me ayuda a pensar mejor</strong>: escribir obliga a entender.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-conclusión">🌻 Conclusión<a href="https://usrcrecef.github.io/docuccv/blog/arbol-de-conocimientos-docusaurus#-conclusi%C3%B3n" class="hash-link" aria-label="Enlace directo al 🌻 Conclusión" title="Enlace directo al 🌻 Conclusión" translate="no">​</a></h2>
+<p>Mi Árbol de Conocimientos no es solo un sitio web: es una forma de trabajar, aprender y crecer de manera estructurada.<br>
+<!-- -->Docusaurus me dio la base técnica, pero lo importante es el hábito de documentar.</p>
+<p>Si estás construyendo tu propio sistema de conocimiento, te recomiendo empezar simple: una carpeta, un par de notas y un tema que te apasione. Lo demás crece solo.</p>]]></content>
         <author>
             <name>Juande Sánchez</name>
             <uri>https://linkedin.com/in/sircomun</uri>
