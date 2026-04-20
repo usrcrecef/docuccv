@@ -20,17 +20,19 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.crececonvales.com',
+  url: 'https://usrcrecef.github.io/docuccv/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Crece con Vales', // Usually your GitHub org/user name.
-  projectName: 'Árbol de conocimiento', // Usually your repo name.
+  organizationName: 'usrcrecef', // Usually your GitHub org/user name.
+  projectName: 'docuccv', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  deploymentBranch: 'gh-pages',
+
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
