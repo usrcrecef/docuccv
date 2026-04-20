@@ -32,3 +32,13 @@ productividad:
   label: Productividad
   permalink: /productividad
   description: Productividad tag description
+
+git:
+  label: Git
+  permalink: /git
+  description: Artículos relacionados a Git.
+
+automatizacion:
+  label: Automatización
+  permalink: /automatizacion
+  description: Artículos relacionados con la automatización.
