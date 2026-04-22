@@ -42,3 +42,10 @@ automatizacion:
   label: Automatización
   permalink: /automatizacion
   description: Artículos relacionados con la automatización.
+
+  tutorial:
+    label: Tutorial
+    permalink: /automatizacion/tutorial
+    description: Artículos relacionados con tutoriales de automatización.
+  
+  
